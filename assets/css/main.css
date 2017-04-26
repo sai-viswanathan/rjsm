@@ -1,0 +1,43 @@
+#image-content-div {
+	height: 80vh;
+  	width: 80%;
+    margin: auto;
+	position: relative;
+}
+
+#image-content-div #ic-title {
+	font-family: MontserratBold;
+  	font-size: 4.17vw; /* 60px */
+  	color: #ffffff;
+  	position: relative;
+	margin-bottom: 2.78vw; /* 40px */
+}
+
+#image-content-div #ic-desc {
+	font-family: GothamRoundedMedium;
+  	font-size: 1.25vw; /* 18px */
+  	color: #ffffff;
+  	position: relative;
+	margin-bottom: 4.17vw; /* 60px */
+}
+
+#image-content {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#explore-btn {
+	position: relative;
+}
+
+#explore-btn button {
+	color: #ffffff;
+	padding: 20px 60px;
+    background-color: rgba(0, 0, 12, 0.1);
+    border: solid 2px #ffffff;
+    letter-spacing: 2px;
+    font-size: 0.97vw; /* 14px */
+  	font-family: GothamRoundedBold;
+}

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: MontserratAltLight;
+    src: url('../fonts/montserrat/MontserratAlternates-Light.otf');
+}
+
+@font-face {
+    font-family: MontserratAltSemiBold;
+    src: url('../fonts/montserrat/MontserratAlternates-SemiBold.otf');
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('../fonts/montserrat/Montserrat-Bold.otf');
+}
+
+@font-face {
+    font-family: AvenirHeavy;
+    src: url('../fonts/avenir/AvenirHeavy.ttf');
+}
+
+@font-face {
+    font-family: GothamRoundedMedium;
+    src: url('../fonts/gotham_rounded/GothamRounded-Medium.otf');
+}
+
+@font-face {
+    font-family: GothamRoundedBold;
+    src: url('../fonts/gotham_rounded/GothamRounded-Bold.otf');
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#top-content {
+	height: 100vh;
+    background: url(../images/landing-bg.jpg) center no-repeat;
+}
+
+#header {
+	width: 100%;
+    position: relative;
+    height: 20vh;
+    opacity: 0.8;
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px 0 rgba(232, 40, 70, 0.28);
+}
+
+#header-row-1 {
+    height: 12vh;
+    position: relative;
+}
+
+#header-title {
+    font-family: MontserratAltLight;
+    font-size: 2.08vw; /* 30px */
+    line-height: 1.2;
+    color: #df0e37;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header-title #rjs {
+  	font-family: MontserratAltSemiBold;
+	color: #00000c;
+}
+
+#header-row-2 {
+    height: 8vh;
+    position: relative;
+}
+
+#header-nav-menu {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+#header-nav-menu .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    font-family: AvenirHeavy;
+  	font-size: 0.97vw; /* 14px */
+  	letter-spacing: 2px;
+}
+
+#header-nav-menu .nav li {
+    display:inline;
+    padding: 0 2%;
+}
+
+#header-nav-menu .nav a {
+    display: inline-block;
+    color: #00000c;
+}
+
+#header-nav-menu .nav > li:not(:last-child) {
+	border-right: solid 1px #d8d8d8;
+}
