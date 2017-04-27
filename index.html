@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="rjsmApp">
-
     <head>
         <title>RJSM</title>
         <!--CSS Files-->
@@ -21,12 +20,12 @@
         <div id="top-content">
             <div id="header">
                 <div id="header-row-1">
-                    <div id="header-title">
+                    <div id="header-title" class="transform-xy-50">
                         <span><span id="rjs">RJS</span> GROUP</span>
                     </div>
                 </div>
                 <div id="header-row-2">
-                    <div id="header-nav-menu">
+                    <div id="header-nav-menu" class="transform-xy-50">
                         <ul class="nav">
                             <li><a href="/real-estate">REAL ESTATE</a></li>
                             <li><a href="/interior-design/">INTERIOR DESIGN</a></li>
@@ -39,7 +38,7 @@
                 </div>
             </div>
             <div id="image-content-div">
-                <div id="image-content">
+                <div id="image-content" class="transform-y-50">
                     <div id="ic-title">
                         <span>Your one stop solution for all your needs.</span>
                     </div>
@@ -52,7 +51,62 @@
                 </div>
             </div>
         </div>
-        <div data-ui-view="mainContent" id="container"></div>
-    </body>
+        <div id="middle-content">
+            <div id="overview-div">
+                <div id="overview-content" class="transform-xy-50">
+                    <div id="ov-title">
+                        <span>AN OVERVIEW</span>
+                    </div>
+                    <div id="ov-desc">
+                        <span>We will help you with what we have learnt</span>
+                    </div>
+                    <div id="ov-para">
+                        <p>To take over everything, from an idea and solutions to realization. We believe in traditions and incorporate them within our innovations for helping out the one in need with our wide range of services offered.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="services-content">
+                <div id="real-estate-service" class="each-service">
+                    <div class="left">
+                        <img src="assets/images/cell1.jpg"/>
+                    </div>
+                    <div class="right">
+                        <div>right content</div>
+                    </div>
+                </div>
+                <div id="interior-service" class="each-service">
+                    <div class="left">
+                        <div>left content</div>
+                    </div>
+                    <div class="right">
+                        <img src="assets/images/cell1.jpg"/>
+                    </div>
+                </div>
+                <div id="facility-mgmt-service" class="each-service">
+                    <div class="left">
+                            <img src="assets/images/cell1.jpg"/>
+                    </div>
+                    <div class="right">
+                        <div>right content</div>
+                    </div>
+                </div>
+                <div id="event-mgmt-service" class="each-service">
+                    <div class="left">
 
+                    </div>
+                    <div class="right">
+                        <img src="assets/images/cell1.jpg"/>
+                    </div>
+                </div>
+                <div id="automobile-service" class="each-service">
+                    <div class="left">
+                        <img src="assets/images/cell1.jpg"/>
+                    </div>
+                    <div class="right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

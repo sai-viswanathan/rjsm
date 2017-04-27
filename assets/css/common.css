@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: MontserratRegular;
+    src: url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+
+@font-face {
     font-family: AvenirHeavy;
     src: url('../fonts/avenir/AvenirHeavy.ttf');
 }
@@ -28,12 +33,30 @@
     src: url('../fonts/gotham_rounded/GothamRounded-Bold.otf');
 }
 
+@font-face {
+    font-family: GothamRoundedBook;
+    src: url('../fonts/gotham_rounded/GothamRounded-Book.otf');
+}
+
 body {
 	margin: 0;
 }
 
 a {
 	text-decoration: none;
+}
+
+.transform-xy-50 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.transform-y-50 {
+    position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #top-content {
@@ -60,10 +83,6 @@ a {
     font-size: 2.08vw; /* 30px */
     line-height: 1.2;
     color: #df0e37;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #header-title #rjs {
@@ -77,11 +96,7 @@ a {
 }
 
 #header-nav-menu {
-	position: absolute;
-    left: 50%;
-    top: 50%;
     width: 100%;
-    transform: translate(-50%, -50%);
 }
 
 #header-nav-menu .nav {

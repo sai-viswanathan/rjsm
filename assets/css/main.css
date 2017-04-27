@@ -23,9 +23,6 @@
 
 #image-content {
 	width: 50%;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 #explore-btn {
@@ -34,10 +31,75 @@
 
 #explore-btn button {
 	color: #ffffff;
-	padding: 20px 60px;
+	padding: 1.39vw 4.17vw; /* 20px 60px */
     background-color: rgba(0, 0, 12, 0.1);
     border: solid 2px #ffffff;
     letter-spacing: 2px;
     font-size: 0.97vw; /* 14px */
   	font-family: GothamRoundedBold;
+}
+
+#middle-content {
+	position: relative;
+  	background-color: #f4f4f4;
+}
+
+#overview-div {
+	height: 75vh;
+	position: relative;
+	box-shadow: 0 1px 2px 0 #979797;
+}
+
+#ov-title {
+	font-family: GothamRoundedMedium;
+  	font-size: 1.67vw; /* 24px */
+  	letter-spacing: 2px;
+  	text-align: center;
+  	color: #00000c;
+  	-webkit-text-stroke: 1px #979797;
+	margin-bottom: 1.39vw; /* 20px */
+}
+
+#ov-desc {
+	font-family: MontserratRegular;
+  	font-size: 2.78vw; /* 40px */
+  	line-height: 1.6;
+  	text-align: center;
+  	color: #e82946;
+}
+
+#ov-para {
+	font-family: GothamRoundedBook;
+  	font-size: 1.46vw; /* 21px */
+  	line-height: 1.8;
+  	text-align: center;
+  	color: #5a5a5a;
+  	-webkit-text-stroke: 1px #979797;
+}
+
+#ov-para p {
+	margin-bottom: 0px;
+}
+
+#services-content .each-service {
+	height: 50vh;
+	box-shadow: 0 1px 2px 0 #979797;
+}
+
+.each-service .left, .each-service .right { 
+  	width: 50%;
+	height: 100%
+} 
+
+.each-service .left  { 
+	float: left;
+}
+
+.each-service .right { 
+	float: right;
+}
+
+.left img, .right img {
+	height: 100%;
+	width: 100%;
 }
