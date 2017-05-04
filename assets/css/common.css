@@ -59,9 +59,15 @@ a {
 	transform: translateY(-50%);
 }
 
+.transform-x-50 {
+    position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 #top-content {
 	height: 100vh;
-    background: url(../images/landing-bg.jpg) center no-repeat;
+    background: url(../images/landing_page/landing_bg.jpg) center no-repeat;
 }
 
 #header {
