@@ -4,14 +4,47 @@ var rjsmApp = angular.module('rjsmApp', ['uiRouterStyles']);
 rjsmApp.config(['$stateProvider', '$urlRouterProvider',
     function($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('landing', {
-                url: "/",
+            .state('home', {
+                url: "/home",
                 views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/landing_image.html"
+                    },
                     "mainContent": {
-                        templateUrl: "views/partial/signin.html"
+                        templateUrl: "views/partial/landing.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
                     }
+                },
+                data: {
+                    css: 'assets/css/main.css'
+                }
+            })
+            .state('real-estate', {
+                url: "/real-estate",
+                views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/real_estate_image.html"
+                    },
+                    "mainContent": {
+                        templateUrl: "views/partial/real_estate.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
+                    }
+                },
+                data: {
+                    css: 'assets/css/real_estate.css'
                 }
             });
+        $urlRouterProvider.otherwise("home");
     }
 
 ]).run();
