@@ -1,5 +1,5 @@
 #top-content {
-	background: url(../images/real_estate/real_estate_header.jpg) center no-repeat;
+	background: url(../images/interior/interior_header.jpg) center no-repeat;
 }
 
 #image-content {
@@ -16,16 +16,20 @@
 	margin: auto;
 }
 
+.know-our-services {
+	opacity: 0.5;
+	font-family: MontserratRegular;
+	font-size: 1.25vw; /* 18px */
+	color: #00000c;
+	margin-top: 20px;
+}
+
 #facility-content {
 	position: relative;
 	height: 50vh;
   	background-color: #f4f4f4;
   	box-shadow: 0 -3px 3px 0 rgba(0, 0, 0, 0.08);
 	z-index: 2;
-}
-
-#facility-div {
-	width: 100%;
 }
 
 #facility-div #facility-title {
@@ -43,8 +47,6 @@
 	line-height: 1.6;
 	text-align: center;
 	color: #e82946;
-	width: 60%;
-	margin: auto;
 	margin-bottom: 20px;
 }
 

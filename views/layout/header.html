@@ -1,17 +1,17 @@
 <div id="header-row-1">
     <div id="header-title" class="transform-xy-50">
-        <span><span id="rjs">RJS</span> GROUP</span>
+        <a ng-href="{{'#/home'}}"><span><span id="rjs">RJS</span> GROUP</span></a>
     </div>
 </div>
 <div id="header-row-2">
     <div id="header-nav-menu" class="transform-xy-50">
         <ul class="nav">
-            <li><a ng-href="{{'#/real-estate'}}">REAL ESTATE</a></li>
-            <li><a href="/interior-design/">INTERIOR DESIGN</a></li>
-            <li><a href="/facility-management/">FACILITY MANAGEMENT</a></li>
-            <li><a href="/event-management/">EVENT MANAGEMENT</a></li>
-            <li><a href="/automobiles/">AUTOMOBILES</a></li>
-            <li><a href="/electronics/">ELECTRONICS</a></li>
+            <li><a ng-class="{'active' : curPage == 'real-estate'}" ng-href="{{'#/real-estate'}}">REAL ESTATE</a></li>
+            <li><a ng-class="{'active' : curPage == 'interior-design'}" ng-href="{{'#/interior-design'}}">INTERIOR DESIGN</a></li>
+            <li><a ng-href="{{'#/facility-management'}}">FACILITY MANAGEMENT</a></li>
+            <li><a ng-href="{{'#/event-management'}}">EVENT MANAGEMENT</a></li>
+            <li><a ng-href="{{'#/automobiles'}}">AUTOMOBILES</a></li>
+            <li><a ng-href="{{'#/electronics'}}">ELECTRONICS</a></li>
         </ul>
     </div>
 </div>

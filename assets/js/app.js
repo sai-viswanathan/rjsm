@@ -43,8 +43,38 @@ rjsmApp.config(['$stateProvider', '$urlRouterProvider',
                 data: {
                     css: 'assets/css/real_estate.css'
                 }
+            })
+            .state('interior-design', {
+                url: "/interior-design",
+                views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/interior_image.html"
+                    },
+                    "mainContent": {
+                        templateUrl: "views/partial/interior.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
+                    }
+                },
+                data: {
+                    css: 'assets/css/interior.css'
+                }
             });
         $urlRouterProvider.otherwise("home");
     }
 
-]).run();
+]).run(['$state', '$rootScope',
+    function($state, $rootScope) {
+        $rootScope.$on('$stateChangeStart', 
+            function(event, toState, fromState) {
+                $rootScope.fromState = fromState;
+                $rootScope.toState = toState;
+                $rootScope.curPage = toState.name;
+            }
+        );
+    }
+]);

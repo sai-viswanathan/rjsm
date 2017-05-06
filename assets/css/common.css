@@ -84,7 +84,7 @@ a {
     position: relative;
 }
 
-#header-title {
+#header-title span {
     font-family: MontserratAltLight;
     font-size: 2.08vw; /* 30px */
     line-height: 1.2;
@@ -125,6 +125,10 @@ a {
     color: #00000c;
 }
 
+#header-nav-menu .nav a.active {
+	color: #e82946;
+}
+
 #header-nav-menu .nav > li:not(:last-child) {
 	border-right: solid 1px #d8d8d8;
 }
@@ -150,10 +154,6 @@ a {
   	color: #ffffff;
   	position: relative;
 	margin-bottom: 4.17vw; /* 60px */
-}
-
-#image-content {
-	width: 50%;
 }
 
 #explore-btn {
@@ -210,6 +210,73 @@ a {
 
 #ov-para p {
 	margin-bottom: 0px;
+}
+
+#services-content .each-service {
+	height: 75vh;
+	z-index: 1;
+}
+
+.each-service .left, .each-service .right { 
+  	width: 50%;
+	height: 100%
+} 
+
+.each-service .left  { 
+	float: left;
+}
+
+.each-service .right { 
+	float: right;
+}
+
+.left img, .right img {
+	height: 100%;
+	width: 100%;
+}
+
+.left, .right {
+	position: relative;
+}
+
+.left .text-content, .right .text-content {
+	margin-left: 10%;
+	width: 80%;
+}
+
+.specialize-div {
+	font-family: GothamRoundedMedium;
+  	font-size: 1.25vw; /* 18px */
+  	letter-spacing: 1.5px;
+  	color: #00000c;
+  	-webkit-text-stroke: 1px #979797;
+	margin-bottom: 20px;
+}
+
+.left .text-content .title, .right .text-content .title {
+	font-family: MontserratRegular;
+  	font-size: 2.78vw; /* 40px */
+  	line-height: 1.6;
+  	color: #e82946;
+	margin-bottom: 20px;
+}
+
+.left .text-content .title span, .right .text-content .title span {
+	color: #00000b;
+}
+
+.left .text-content .desc, .right .text-content .desc {
+	font-family: GothamRoundedBook;
+  	font-size: 1.46vw; /* 21px */
+  	line-height: 1.81;
+  	color: #5a5a5a;
+}
+
+.left .text-content .divider, .right .text-content .divider {
+	width: 60px;
+	height: 2px;
+	background-color: #00000c;
+	margin-bottom: 20px;
 }
 
 #footer-content {
