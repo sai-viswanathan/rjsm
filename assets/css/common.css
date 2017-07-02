@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: AvenirMedium;
+    src: url('../fonts/avenir/AvenirMedium.ttf');
+}
+
+@font-face {
     font-family: GothamRoundedMedium;
     src: url('../fonts/gotham_rounded/GothamRounded-Medium.otf');
 }
@@ -73,8 +78,9 @@ a {
 #header {
 	width: 100%;
     position: relative;
+	z-index: 2;
     height: 20vh;
-    opacity: 0.8;
+    opacity: 0.97;
     background-color: #ffffff;
     box-shadow: 0 3px 20px 0 rgba(232, 40, 70, 0.28);
 }
@@ -115,17 +121,18 @@ a {
   	letter-spacing: 2px;
 }
 
-#header-nav-menu .nav li {
+#header-nav-menu > .nav > li {
     display:inline;
     padding: 0 2%;
 }
 
-#header-nav-menu .nav a {
+#header-nav-menu > .nav > li > a {
     display: inline-block;
     color: #00000c;
 }
 
-#header-nav-menu .nav a.active {
+#header-nav-menu > .nav > li > a.active, #header-nav-menu > .nav > li > a:hover, 
+#header-nav-menu > .nav > li.dropdown a:hover {
 	color: #e82946;
 }
 
@@ -138,6 +145,7 @@ a {
   	width: 80%;
     margin: auto;
 	position: relative;
+	z-index: 1;
 }
 
 #image-content-div #ic-title {
@@ -168,6 +176,7 @@ a {
     letter-spacing: 2px;
     font-size: 0.97vw; /* 14px */
   	font-family: GothamRoundedBold;
+	outline: none;
 }
 
 #middle-content {
@@ -348,4 +357,11 @@ a {
 	line-height: 2.11;
 	text-align: center;
 	color: #ffffff;
+}
+
+img.expand-icon {
+	height: 25px;
+	width: 25px;
+	padding-left: 10px;
+	vertical-align: middle;
 }

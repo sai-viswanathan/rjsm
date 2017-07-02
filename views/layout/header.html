@@ -8,7 +8,66 @@
         <ul class="nav">
             <li><a ng-class="{'active' : curPage == 'real-estate'}" ng-href="{{'#/real-estate'}}">REAL ESTATE</a></li>
             <li><a ng-class="{'active' : curPage == 'interior-design'}" ng-href="{{'#/interior-design'}}">INTERIOR DESIGN</a></li>
-            <li><a ng-href="{{'#/facility-management'}}">FACILITY MANAGEMENT</a></li>
+            <li class="dropdown">
+                <a class="dropdown-a" ng-href="{{'#/facility-management'}}">FACILITY MANAGEMENT</a>
+                <ul class="dropdown-menu">
+                    <li id="dropdown-menu-nav">
+                        <ul class="nav-col" nav-bar-header>
+                            <li class="nav-col-list" id="nav-col-list1">
+                                <ul>
+                                    <li nav-bar-header-content id="nav-lgstcs" class="dropdown-menu-list">
+                                        <a href="#">Logistics</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-prprty" class="dropdown-menu-list">
+                                        <a href="#">Property</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-ctrng" class="dropdown-menu-list">
+                                        <a href="#">Catering</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-brndng" class="dropdown-menu-list">
+                                        <a href="#">Branding</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-col-list" id="nav-col-list2">
+                                <ul>
+                                    <li nav-bar-header-content id="nav-mn-pwr" class="dropdown-menu-list">
+                                        <a href="#">Man Power</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-hs-kpng" class="dropdown-menu-list">
+                                        <a href="#">House Keeping</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-scrty" class="dropdown-menu-list">
+                                        <a href="#">Security</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-plmbng" class="dropdown-menu-list">
+                                        <a href="#">Plumbing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-col-list" id="nav-col-list3">
+                                <ul>
+                                    <li nav-bar-header-content id="nav-auto-mcnc" class="dropdown-menu-list">
+                                        <a href="#">Automobile Mechanic</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-auto-elctrcn" class="dropdown-menu-list">
+                                        <a href="#">Electrician</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-frnt-off" class="dropdown-menu-list">
+                                        <a href="#">Front Office/Receptionist</a>
+                                    </li>
+                                    <li nav-bar-header-content id="nav-grpc" class="dropdown-menu-list">
+                                        <a href="#">Graphic/Web Design</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="dropdown-menu-img">
+                        <img id="nav-img"/>
+                    </li>
+                </ul>
+            </li>
             <li><a ng-href="{{'#/event-management'}}">EVENT MANAGEMENT</a></li>
             <li><a ng-href="{{'#/automobiles'}}">AUTOMOBILES</a></li>
             <li><a ng-href="{{'#/electronics'}}">ELECTRONICS</a></li>
