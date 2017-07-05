@@ -1,5 +1,8 @@
 #top-content {
-	background: url(../images/landing_page/landing_bg.jpg) center no-repeat;
+	background-image: url(../images/landing_page/landing_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #image-content {
