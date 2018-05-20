@@ -16,15 +16,6 @@
 	margin: auto;
 }
 
-.know-our-services {
-	opacity: 0.5;
-	font-family: MontserratRegular;
-	font-size: 1.25vw; /* 18px */
-	color: #00000c;
-	margin-top: 20px;
-	cursor: pointer;
-}
-
 #facility-content {
 	position: relative;
 	height: 50vh;
@@ -35,7 +26,7 @@
 
 #facility-div #facility-title {
 	font-family: GothamRoundedMedium;
-	font-size: 1.67vw; /* 24px */
+	font-size: 24px;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #00000c;
@@ -44,7 +35,7 @@
 
 #facility-div #facility-title-1 {
 	font-family: MontserratRegular;
-	font-size: 2.78vw; /* 40px */
+	font-size: 40px;
 	line-height: 1.6;
 	text-align: center;
 	color: #e82946;
@@ -53,7 +44,7 @@
 
 #facility-div #facility-desc {
 	font-family: GothamRoundedBook;
-  	font-size: 1.46vw; /* 21px */
+  	font-size: 21px;
   	line-height: 1.8;
   	text-align: center;
   	color: #5a5a5a;
@@ -61,55 +52,4 @@
 
 #facility-div #facility-desc p {
 	margin-bottom: 0px;
-}
-
-.service-expanded {
-	display: none;
-	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
-}
-
-#our-services {
-	font-family: GothamRoundedMedium;
-	font-size: 1.25vw; /* 18px */
-	letter-spacing: 1.5px;
-	color: #00000c;
-	-webkit-text-stroke: 1px #979797;
-	margin-bottom: 20px;
-	display: block;
-}
-
-#expanded-service {
-	font-family: MontserratRegular;
-	font-size: 2.78vw; /* 40px */
-	line-height: 1.6;
-	color: #00000b;
-	display: block;
-	margin-bottom: 20px;
-}
-
-#expanded-service span {
-	color: #df0e37;
-}
-
-#expanded-service-list {
-	font-family: GothamRoundedBook;
-	font-size: 1.46vw; /* 21px */
-	color: #5a5a5a;
-	list-style-type: none;
-	padding: 0;
-}
-
-#expanded-service-list li {
-	padding-bottom: 10px;
-}
-
-#expanded-service-list li::before {
-	content: '>';
-	color: #df0e37;
-	padding-right: 10px;
-}
-
-.service-divider {
-	border-bottom: solid 3px #00000c;
-	width: 60px;
 }

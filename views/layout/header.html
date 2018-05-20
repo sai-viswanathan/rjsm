@@ -9,7 +9,7 @@
             <li><a ng-class="{'active' : curPage == 'real-estate'}" ng-href="{{'#/real-estate'}}">REAL ESTATE</a></li>
             <li><a ng-class="{'active' : curPage == 'interior-design'}" ng-href="{{'#/interior-design'}}">INTERIOR DESIGN</a></li>
             <li class="dropdown">
-                <a class="dropdown-a" ng-href="{{'#/facility-management'}}">FACILITY MANAGEMENT</a>
+                <a ng-class="{'active' : curPage == 'facility-management'}" class="dropdown-a" ng-href="{{'#/facility-management'}}">FACILITY MANAGEMENT</a>
                 <ul class="dropdown-menu">
                     <li id="dropdown-menu-nav">
                         <ul class="nav-col" nav-bar-header>
@@ -68,7 +68,7 @@
                     </li>
                 </ul>
             </li>
-            <li><a ng-href="{{'#/event-management'}}">EVENT MANAGEMENT</a></li>
+            <li><a ng-class="{'active' : curPage == 'event-management'}" ng-href="{{'#/event-management'}}">EVENT MANAGEMENT</a></li>
             <li><a ng-href="{{'#/automobiles'}}">AUTOMOBILES</a></li>
             <li><a ng-href="{{'#/electronics'}}">ELECTRONICS</a></li>
         </ul>

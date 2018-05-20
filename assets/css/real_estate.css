@@ -30,7 +30,7 @@
 
 #facility-div #facility-title {
 	font-family: GothamRoundedMedium;
-	font-size: 1.67vw; /* 24px */
+	font-size: 24px;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #00000c;
@@ -39,7 +39,7 @@
 
 #facility-div #facility-title-1 {
 	font-family: MontserratRegular;
-	font-size: 2.78vw; /* 40px */
+	font-size: 40px;
 	line-height: 1.6;
 	text-align: center;
 	color: #e82946;
@@ -50,7 +50,7 @@
 
 #facility-div #facility-desc {
 	font-family: GothamRoundedBook;
-  	font-size: 1.46vw; /* 21px */
+  	font-size: 21px;
   	line-height: 1.8;
   	text-align: center;
   	color: #5a5a5a;

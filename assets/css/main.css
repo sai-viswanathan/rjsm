@@ -33,7 +33,7 @@
 
 #contact-div #get-to-know {
 	font-family: GothamRoundedMedium;
-	font-size: 1.67vw; /* 24px */
+	font-size: 24px;
 	letter-spacing: 2px;
 	text-align: center;
 	color: #00000c;
@@ -42,7 +42,7 @@
 
 #contact-div #shy-to-call {
 	font-family: MontserratRegular;
-	font-size: 2.78vw; /* 40px */
+	font-size: 40px;
 	line-height: 1.6;
 	text-align: center;
 	color: #e82946;
@@ -61,7 +61,7 @@
 
 #contact-div #email-phone-div input {
 	font-family: GothamRoundedBold;
-	font-size: 2.78vw; /* 40px */
+	font-size: 40px;
 	text-align: center;
 	color: #5a5a5a;
 	border: none;
@@ -77,13 +77,13 @@
 
 #contact-div #call-btn button {
 	font-family: GothamRoundedBold;
-	font-size: 0.97vw; /* 14px */
+	font-size: 14px;
 	letter-spacing: 2.1px;
 	text-align: center;
 	color: #ffffff;
 	background-color: #e82946;
 	border: none;
-	padding: 1.39vw 4.17vw; /* 20px 60px */
+	padding: 20px 60px;
 }
 
 .dropdown {
@@ -95,17 +95,17 @@
     left: -8px;
     display: none;
 	padding: 0;
-	padding-top: 1.32vw; /* 19px */
+	padding-top: 19px;
 	width: 900px;
 }
 
 .dropdown-menu li a {
-    padding: 0.83vw 1.11vw; /* 12px 16px */
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
 	text-align: left;
-	font-family: Avenir-Medium;
-	font-size: 1.11vw; /* 16px */
+	font-family: AvenirMedium;
+	font-size: 16px;
 	color: #00000c;
 }
 

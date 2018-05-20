@@ -92,7 +92,7 @@ a {
 
 #header-title span {
     font-family: MontserratAltLight;
-    font-size: 2.08vw; /* 30px */
+    font-size: 30px;
     line-height: 1.2;
     color: #df0e37;
 }
@@ -117,7 +117,7 @@ a {
     padding: 0;
     text-align:center;
     font-family: AvenirHeavy;
-  	font-size: 0.97vw; /* 14px */
+  	font-size: 14px;
   	letter-spacing: 2px;
 }
 
@@ -150,18 +150,18 @@ a {
 
 #image-content-div #ic-title {
 	font-family: MontserratBold;
-  	font-size: 4.17vw; /* 60px */
+  	font-size: 60px;
   	color: #ffffff;
   	position: relative;
-	margin-bottom: 2.78vw; /* 40px */
+	margin-bottom: 40px;
 }
 
 #image-content-div #ic-desc {
 	font-family: GothamRoundedMedium;
-  	font-size: 1.25vw; /* 18px */
+  	font-size: 18px;
   	color: #ffffff;
   	position: relative;
-	margin-bottom: 4.17vw; /* 60px */
+	margin-bottom: 60px;
 }
 
 #explore-btn {
@@ -170,11 +170,11 @@ a {
 
 #explore-btn button {
 	color: #ffffff;
-	padding: 1.39vw 4.17vw; /* 20px 60px */
+	padding: 20px 60px;
     background-color: rgba(0, 0, 12, 0.1);
     border: solid 2px #ffffff;
     letter-spacing: 2px;
-    font-size: 0.97vw; /* 14px */
+    font-size: 14px;
   	font-family: GothamRoundedBold;
 	outline: none;
 }
@@ -193,17 +193,17 @@ a {
 
 #ov-title {
 	font-family: GothamRoundedMedium;
-  	font-size: 1.67vw; /* 24px */
+  	font-size: 24px;
   	letter-spacing: 2px;
   	text-align: center;
   	color: #00000c;
   	-webkit-text-stroke: 1px #979797;
-	margin-bottom: 1.39vw; /* 20px */
+	margin-bottom: 20px;
 }
 
 #ov-desc {
 	font-family: MontserratRegular;
-  	font-size: 2.78vw; /* 40px */
+  	font-size: 40px;
   	line-height: 1.6;
   	text-align: center;
   	color: #e82946;
@@ -211,7 +211,7 @@ a {
 
 #ov-para {
 	font-family: GothamRoundedBook;
-  	font-size: 1.46vw; /* 21px */
+  	font-size: 21px;
   	line-height: 1.8;
   	text-align: center;
   	color: #5a5a5a;
@@ -255,7 +255,7 @@ a {
 
 .specialize-div {
 	font-family: GothamRoundedMedium;
-  	font-size: 1.25vw; /* 18px */
+  	font-size: 18px;
   	letter-spacing: 1.5px;
   	color: #00000c;
   	-webkit-text-stroke: 1px #979797;
@@ -264,7 +264,7 @@ a {
 
 .left .text-content .title, .right .text-content .title {
 	font-family: MontserratRegular;
-  	font-size: 2.78vw; /* 40px */
+  	font-size: 40px;
   	line-height: 1.6;
   	color: #e82946;
 	margin-bottom: 20px;
@@ -276,7 +276,7 @@ a {
 
 .left .text-content .desc, .right .text-content .desc {
 	font-family: GothamRoundedBook;
-  	font-size: 1.46vw; /* 21px */
+  	font-size: 21px;
   	line-height: 1.81;
   	color: #5a5a5a;
 }
@@ -311,13 +311,13 @@ a {
 	text-align: right;
 }
 
-#left-footer span {
+#left-footer span, #right-footer span {
 	display: block;
 }
 
 #footer-row1 {
 	font-family: GothamRoundedMedium;
-	font-size: 1.25vw; /* 18px */
+	font-size: 18px;
 	letter-spacing: 1.5px;
 	color: #f7f7f7;
 	margin-bottom: 20px;
@@ -325,13 +325,13 @@ a {
 
 #footer-row2 {
 	font-family: MontserratRegular;
-	font-size: 2.22vw; /* 32px; */
+	font-size: 32px;
 	color: #e82946;
 }
 
 #footer-contact-div p {
 	font-family: GothamRoundedMedium;
-	font-size: 1.25vw; /* 18px */
+	font-size: 18px;
 	line-height: 2.11;
 	color: #ffffff;
 	margin-bottom: 0px;
@@ -339,21 +339,21 @@ a {
 
 #footer-contact {
 	font-family: MontserratRegular;
-	font-size: 3.61vw; /* 52px; */
+	font-size: 50px;
 	text-align: right;
 	color: #e82946;
 }
 
 #footer-email {
 	font-family: MontserratRegular;
-	font-size: 1.67vw; /* 24px */
+	font-size: 24px;
 	text-align: right;
 	color: #e82946;
 }
 
 #footer-address {
 	font-family: GothamRoundedMedium;
-	font-size: 1.25vw; /* 18px */
+	font-size: 18px;
 	line-height: 2.11;
 	text-align: center;
 	color: #ffffff;
@@ -364,4 +364,64 @@ img.expand-icon {
 	width: 25px;
 	padding-left: 10px;
 	vertical-align: middle;
+}
+
+.know-our-services {
+	opacity: 0.5;
+	font-family: MontserratRegular;
+	font-size: 18px;
+	color: #00000c;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.service-expanded {
+	display: none;
+	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+#our-services {
+	font-family: GothamRoundedMedium;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	color: #00000c;
+	-webkit-text-stroke: 1px #979797;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#expanded-service {
+	font-family: MontserratRegular;
+	font-size: 40px;
+	line-height: 1.6;
+	color: #00000b;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#expanded-service span {
+	color: #df0e37;
+}
+
+#expanded-service-list {
+	font-family: GothamRoundedBook;
+	font-size: 21px;
+	color: #5a5a5a;
+	list-style-type: none;
+	padding: 0;
+}
+
+#expanded-service-list li {
+	padding-bottom: 10px;
+}
+
+#expanded-service-list li::before {
+	content: '>';
+	color: #df0e37;
+	padding-right: 10px;
+}
+
+.service-divider {
+	border-bottom: solid 3px #00000c;
+	width: 60px;
 }

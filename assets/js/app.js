@@ -63,6 +63,46 @@ rjsmApp.config(['$stateProvider', '$urlRouterProvider',
                 data: {
                     css: 'assets/css/interior.css'
                 }
+            })
+            .state('facility-management', {
+                url: "/facility-management",
+                views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/facility_mgmt_image.html"
+                    },
+                    "mainContent": {
+                        templateUrl: "views/partial/facility_mgmt.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
+                    }
+                },
+                data: {
+                    css: 'assets/css/facility_mgmt.css'
+                }
+            })
+            .state('event-management', {
+                url: "/event-management",
+                views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/event_mgmt_image.html"
+                    },
+                    "mainContent": {
+                        templateUrl: "views/partial/event_mgmt.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
+                    }
+                },
+                data: {
+                    css: 'assets/css/event_mgmt.css'
+                }
             });
         $urlRouterProvider.otherwise("home");
     }
