@@ -7,7 +7,9 @@ rjsmApp.directive('navBarHeader', [function() {
                     $(".dropdown-a").addClass('active')
                 })
                 .on('mouseleave',function() {
-                    $(".dropdown-a").removeClass('active')
+                    if (!window.location.href.includes('facility-management')) { 
+                        $(".dropdown-a").removeClass('active')
+                    }
                 });
         }
     };

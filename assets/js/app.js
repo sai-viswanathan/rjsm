@@ -103,6 +103,26 @@ rjsmApp.config(['$stateProvider', '$urlRouterProvider',
                 data: {
                     css: 'assets/css/event_mgmt.css'
                 }
+            })
+            .state('automobiles', {
+                url: "/automobiles",
+                views: {
+                    "headerContent": {
+                        templateUrl: "views/layout/header.html"
+                    },
+                    "imageContent": {
+                        templateUrl: "views/partial/automobiles_image.html"
+                    },
+                    "mainContent": {
+                        templateUrl: "views/partial/automobiles.html"
+                    },
+                    "footerContent": {
+                        templateUrl: "views/layout/footer.html"
+                    }
+                },
+                data: {
+                    css: 'assets/css/automobiles.css'
+                }
             });
         $urlRouterProvider.otherwise("home");
     }
