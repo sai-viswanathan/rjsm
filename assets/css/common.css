@@ -50,6 +50,7 @@ body {
 a {
 	text-decoration: none;
 	cursor: pointer;
+    color: #e82946;
 }
 
 .transform-xy-50 {
@@ -294,7 +295,7 @@ a {
 }
 
 #footer-contact-div {
-	width: 80%;
+	width: 90%;
 	height: 39vh;
 	margin: 0 auto;
 	position: relative;
