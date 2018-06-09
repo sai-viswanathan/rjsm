@@ -138,3 +138,7 @@ rjsmApp.config(['$stateProvider', '$urlRouterProvider',
         );
     }
 ]);
+
+rjsmApp.controller('carouselCtrl', function($scope) {
+    $scope.carouselImages = ['assets/images/landing_page/landing_bg.jpg', 'assets/images/real_estate/real_estate_header.jpg', 'assets/images/interior/interior_header.jpg'];
+});

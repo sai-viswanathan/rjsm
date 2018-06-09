@@ -76,6 +76,10 @@ a {
 	height: 100vh;
 }
 
+.slider, .slick-list {
+    height: 70vh;
+}
+
 #header {
 	width: 100%;
     position: relative;
